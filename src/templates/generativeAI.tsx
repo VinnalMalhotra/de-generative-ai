@@ -54,9 +54,9 @@ export const getHeadConfig: GetHeadConfig<
 
 const searcher = provideHeadless(searchConfig);
 const universalLimits = {
-  help_articles: 8,
-  products: 8,
-  locations: 8,
+  blogs: 5,
+  products: 5,
+  locations: 5,
 };
 function Inner() {
   const searchActions = useSearchActions();
