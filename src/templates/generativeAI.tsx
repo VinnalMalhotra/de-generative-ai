@@ -87,7 +87,7 @@ function Inner() {
       <SearchBar onSearch={handleSearch} placeholder="Ask a question..."  customCssClasses={{searchBarContainer:'my-4'}}/>
       <section className={cn("flex flex-col gap-10", !hasSearched && "hidden")}>
         <AiAnswer />
-        <SearchResultsSection />
+        {/* <SearchResultsSection /> */}
         <AnimatePresence>
           {chatMode && (
             <motion.div
