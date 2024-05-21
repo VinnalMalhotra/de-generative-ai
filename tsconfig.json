@@ -6,8 +6,7 @@
     "forceConsistentCasingInFileNames": true,
     "jsx": "react-jsx",
     "outDir": "./dist",
-    "module": "esnext",
-    "allowSyntheticDefaultImports": true
+    "module": "esnext"
   },
   "include": ["src"]
 }

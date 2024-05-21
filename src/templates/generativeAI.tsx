@@ -68,7 +68,7 @@ function Inner() {
   const handleSearch: onSearchFunc = (searchEventData) => {
     setHasSearched(true);
     const { query } = searchEventData;
-    searchActions.setUniversalLimit(universalLimits);
+    // searchActions.setUniversalLimit(universalLimits);
     searchActions.executeUniversalQuery();
     chatActions.restartConversation();
     chatActions.getNextMessage(query);
