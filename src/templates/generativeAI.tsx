@@ -122,7 +122,7 @@ function Inner() {
   );
 }
 
-export default function GenerativeAI({ document }: TemplateProps) {
+const GenerativeAI=({ document }: TemplateProps)=> {
   const { _site } = document;
   const { c_header, c_footer } = _site;
 
@@ -142,3 +142,4 @@ export default function GenerativeAI({ document }: TemplateProps) {
     </>
   );
 }
+export default GenerativeAI;
